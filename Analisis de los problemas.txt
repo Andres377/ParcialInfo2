@@ -1,0 +1,6 @@
+•Análisis Problema 1:
+Se debe de implementar un circuito en tinkercard que nos permite controlar 64 leds de la forma mas eficientemente posible y con menor uso de pines digitales posibles, siendo además capaces de controlar estos leds y poder decidir sobre el estado de cada uno de ellos.
+
+•Análisis Problema 2:
+Se debe de implementar una función que de la orden a los 64 leds de prenderse a la misma vez y de apagarse también en sincronía esto con el fin de poder verificar que todos los leds estén funcionando correctamente
+
