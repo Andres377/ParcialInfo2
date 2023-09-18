@@ -1,7 +1,0 @@
-•Análisis Problema 1:
-Se debe de implementar un circuito en tinkercard que nos permite controlar 64 leds de la forma mas eficientemente posible y con menor uso de pines digitales posibles, siendo además capaces de controlar estos leds y poder decidir sobre el estado de cada uno de ellos. Se decidió implementar una matriz de ánodo común conectando las filas a los 5v y las columnas a tierra (GND). Para el código se generará una matriz 8*8 en C++ y se le asignará un puntero a su posición (0,0), que permita recorrerla por dos ciclos for.
-
-•Análisis Problema 2:
-Se debe de implementar una función que de la orden a los 64 leds de prenderse a la misma vez y de apagarse también en sincronía esto con el fin de poder verificar que todos los leds estén funcionando correctamente.
-En el tinkercard se pude lograr esto mediante el integrado 74HC595, que al recibir una entrada en binario divide esta secuencia de 8 bits en 8 salidas con la que cada una va a una fila, nótese que al ingresar el numero 256 
-(en binario: 1111111) esta manda una señal de 1 a cada fila, permitiendo prender los 64 leds de la matriz
